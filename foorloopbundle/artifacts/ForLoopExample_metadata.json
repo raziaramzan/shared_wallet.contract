@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateSum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"foorloopbundle/printingnumbers.sol": "ForLoopExample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"foorloopbundle/printingnumbers.sol": {
+			"keccak256": "0x06a7b56f7d3b851a7d1b28ac1d90213fbb095f757aecfff8362e4c0556c3eb27",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://0652c714a7b4feb2478e945446f2f9682d3fd4d4ac7821aec187da9876ae7234",
+				"dweb:/ipfs/QmRVhRajXapqfJNCnVXZYGJ3fMgTHP6uqsEnwzgpunRcoV"
+			]
+		}
+	},
+	"version": 1
+}

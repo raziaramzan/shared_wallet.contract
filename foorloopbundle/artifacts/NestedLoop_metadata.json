@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rows",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cols",
+						"type": "uint256"
+					}
+				],
+				"name": "createMatrix",
+				"outputs": [
+					{
+						"internalType": "uint256[][]",
+						"name": "",
+						"type": "uint256[][]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"foorloopbundle/nestedloop.sol": "NestedLoop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"foorloopbundle/nestedloop.sol": {
+			"keccak256": "0xf2ae6b4f926ed34badc45db30a87b3b24bc5154dd61e66adc5f2e736406e7969",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6960ec03b2f88cccaac7ee554023f8852238b173213c808c824d53d7abd9192",
+				"dweb:/ipfs/Qma4S8JPWrSCncWKDgxwahx11rwEVBorbXD48gZEbP9Hri"
+			]
+		}
+	},
+	"version": 1
+}

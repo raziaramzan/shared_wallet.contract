@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "array",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "findValueInArray",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"foorloopbundle/breakstetment.sol": "LoopWithBreak"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"foorloopbundle/breakstetment.sol": {
+			"keccak256": "0xfadf439a80631f7d2a129a4e37731cede995f9afc2782cc02137ee07ed9c1c94",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://9d5ed30232620f53dfaf7574cceb9d957d5132de950f1c356b3b8d29081db90d",
+				"dweb:/ipfs/QmRv2MfaoXEK9sXhq4ncaCRsSYRUf9bHPrRQ1fyK8CJkRv"
+			]
+		}
+	},
+	"version": 1
+}

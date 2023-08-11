@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interface1.sol": "Iwallet"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface1.sol": {
+			"keccak256": "0x392138607975013a32ba15048afe3ebdbb1403766d6e0d0121980d0296682f78",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ed36aa0085dca3b339c80b77217f53ae87482d8762548f92a36b34b56ff1253d",
+				"dweb:/ipfs/QmSYpygKMywgHEzo7sPXqq8YLq16Uv8d9emSxs8yKxg5qf"
+			]
+		}
+	},
+	"version": 1
+}

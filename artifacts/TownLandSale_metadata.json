@@ -1,0 +1,206 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "Id",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "location",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "PropertyAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "propertyId",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					}
+				],
+				"name": "PropertyPurchased",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Plots",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "blockName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nOfPlots",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "perMarlaPrice",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sizeOfPlots",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "onwer",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isForSale",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_blockName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nOfPlots",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_perMarlaPrice",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sizeOfPlots",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isForSale",
+						"type": "bool"
+					}
+				],
+				"name": "insertplots",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalNoOfPlots",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"town.sol": "TownLandSale"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"town.sol": {
+			"keccak256": "0xfca2f87f3a6bb6efd8fd5bf9503de13c078c7ea7fa413ea1c4f36523fbc8487a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cf9937305a962481ad087053c333f597c61e6f8454124b73dae3db3a4399302",
+				"dweb:/ipfs/QmfTDs9JcCAjETQnB8bcnWnfG4oCgwRKvJukanGNkck6Cx"
+			]
+		}
+	},
+	"version": 1
+}

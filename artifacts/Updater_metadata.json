@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updateBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"example.sol": "Updater"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"example.sol": {
+			"keccak256": "0xbe9c2bff834e9842f969fe1ec09979f8d344e7510e1993115d806672ae0618e9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bf2054c38f7a13ba1eaaecca704f5cf8b2e8cc390e1c7a0dc434f82dbaea158e",
+				"dweb:/ipfs/Qmbnrih6GZgrGmcjiymswpiQgdkP6RGnoJSuWHEh8PoiFh"
+			]
+		}
+	},
+	"version": 1
+}

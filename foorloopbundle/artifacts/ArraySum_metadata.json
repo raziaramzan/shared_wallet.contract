@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "array",
+						"type": "uint256[]"
+					}
+				],
+				"name": "calculateSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"foorloopbundle/Sum of an Array.sol": "ArraySum"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"foorloopbundle/Sum of an Array.sol": {
+			"keccak256": "0xf7dd4c201ade530c2d3cae5cadb7f4a0b4cd3f6463f10d297f7e2410d4e35709",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://374e8be1a15a7285613a8e152a0f5f4f2f4886d5bae6f3476cbc60be9e0d187a",
+				"dweb:/ipfs/QmYkERqTF9hpceJZfeVZSjxcazYnbRdbsM4vA8aBtf4aYh"
+			]
+		}
+	},
+	"version": 1
+}
